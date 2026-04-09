@@ -14,6 +14,6 @@ typedef struct {
     double power_factor;
     double thd_percent;
 
-} waveformSample;
+} WaveformSample;
 
 #endif //PROGRAMMINGCOURSEWORK_WAVEFORM_H
