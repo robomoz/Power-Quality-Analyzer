@@ -15,5 +15,6 @@ typedef struct {
     double thd_percent;
 
 } WaveformSample;
+double calculate_rms(WaveformSample *data, int num_rows, int phase_choice);
 
 #endif //PROGRAMMINGCOURSEWORK_WAVEFORM_H

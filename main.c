@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Waveform.h"
+#include "waveform.h"
 #include"io.h"
 //memory allocation
 int main() {
