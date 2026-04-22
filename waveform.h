@@ -22,4 +22,4 @@ double calculate_dc_offset(const WaveformSample *samples, int count, char phase)
 int detect_clipping(const WaveformSample * samples, int count, char phase); //exeeds threshold
 int is_within_tolerance(double rms);
 
-#endif //PROGRAMMINGCOURSEWORK_WAVEFORM_H
+#endif
