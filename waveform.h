@@ -21,9 +21,9 @@ double calculate_rms_B(const WaveformSample *samples, int count);
 double calculate_rms_C(const WaveformSample *samples, int count);
 
 //peak to peak voltage function calculation for ABC
-double calculate_peak_to_peak_A(const Waveformsample * samples, int count);
-double calculate_peak_to_peak_B(const Waveformsample * samples, int count);
-double calculate_peak_to_peak_C(const Waveformsample * samples, int count);
+double calculate_peak_to_peak_A(const WaveformSample * samples, int count);
+double calculate_peak_to_peak_B(const WaveformSample * samples, int count);
+double calculate_peak_to_peak_C(const WaveformSample * samples, int count);
 
 // dc offset function calc
 double calculate_dc_offset_A(const WaveformSample *samples, int count);
@@ -34,7 +34,7 @@ double calculate_dc_offset_C(const WaveformSample *samples, int count);
 int detect_clipping(const WaveformSample * samples, int count);
 
 //within tolerance for phases
-int is_within_tolerance(double rms, double *percentage);
+int is_within_tolerance(double rms);
 
 //frequency calc
 double max_frequency(const WaveformSample *samples, int count);
