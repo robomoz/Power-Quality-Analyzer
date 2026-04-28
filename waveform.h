@@ -15,7 +15,7 @@ typedef struct {
     double thd;
 
 } WaveformSample;
-//RMS function calclation
+//RMS function calculation
 double calculate_rms_A(const WaveformSample *samples, int count);
 double calculate_rms_B(const WaveformSample *samples, int count);
 double calculate_rms_C(const WaveformSample *samples, int count);
@@ -30,8 +30,16 @@ double calculate_dc_offset_A(const WaveformSample *samples, int count);
 double calculate_dc_offset_B(const WaveformSample *samples, int count);
 double calculate_dc_offset_C(const WaveformSample *samples, int count);
 
-//exeeding theshold calc
-int detect_clipping(const WaveformSample * samples, int count);
+//exeeding threshold calc
+// Replacing with single detect_clipping with per-phase versions
+int detect_clipping_A(const WaveformSample *samples, int count);
+int detect_clipping_B(const WaveformSample *samples, int count);
+int detect_clipping_C(const WaveformSample *samples, int count);
+
+//standard deviation for each phase
+double calculate_std_dev_A(const WaveformSample *samples, int count);
+double calculate_std_dev_B(const WaveformSample *samples, int count);
+double calculate_std_dev_C(const WaveformSample *samples, int count);
 
 //within tolerance for phases
 int is_within_tolerance(double rms);

@@ -1,8 +1,6 @@
-# ninja log v5
-0	394	7974515148943721	CMakeFiles/ProgrammingCoursework.dir/main.c.obj	1a04a1f95aab8c11
-397	913	7974515154083376	ProgrammingCoursework.exe	f22725d5aea2ff5
-1	435	7974538213765089	build.ninja	9fa06b7176fa28fc
-4	409	7974547535991587	CMakeFiles/ProgrammingCoursework.dir/io.c.obj	b169b7390efd860d
-29	414	7974547535991587	CMakeFiles/ProgrammingCoursework.dir/waveform.c.obj	f7b7afa1b370c1f5
-5	316	7974560839218808	CMakeFiles/ProgrammingCoursework.dir/main.c.obj	1a04a1f95aab8c11
-5	312	7974561249922275	CMakeFiles/ProgrammingCoursework.dir/main.c.obj	1a04a1f95aab8c11
+# ninja log v7
+10	637	7990888331847402	CMakeFiles/ProgrammingCoursework.dir/main.c.obj	ff81a4dd635fcd76
+10	145	7990889573277264	CMakeFiles/ProgrammingCoursework.dir/waveform.c.obj	d3ac69dbe0c35d3c
+20	710	7990888331947489	CMakeFiles/ProgrammingCoursework.dir/io.c.obj	b69b9d5ee7e25430
+146	333	7990889574646334	ProgrammingCoursework.exe	e20b6491d7f00e40
+6	199	7990900457524709	ProgrammingCoursework.exe	a256592e7214910c
