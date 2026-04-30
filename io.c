@@ -28,7 +28,7 @@ int load_csv(const char *filename, WaveformSample **samples_out) {
 
     while (fgets(line, sizeof(line), file)) {
 
-        // Grow the array if needed
+
         if (count >= capacity) {
             capacity *= 2;
             WaveformSample *temp = realloc(samples, capacity * sizeof(WaveformSample));
