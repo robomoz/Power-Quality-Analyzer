@@ -7,6 +7,10 @@ Power Quality Waveform Analyser written in C (C99).
 This program reads a CSV file containing three-phase power quality data
 and calculates RMS voltage, peak-to-peak values, DC offset, and clipping.
 
+
+## GitHub Repository link 
+https://github.com/robomoz/Power-Quality-Analyzer.git
+
 ##notes for main.c 
 
 it needs to Accept the filename as a command-line argument (argc, argv)

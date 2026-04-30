@@ -30,7 +30,7 @@ double calculate_dc_offset_A(const WaveformSample *samples, int count);
 double calculate_dc_offset_B(const WaveformSample *samples, int count);
 double calculate_dc_offset_C(const WaveformSample *samples, int count);
 
-//exeeding threshold calc
+
 // Replacing with single detect_clipping with per-phase versions
 int detect_clipping_A(const WaveformSample *samples, int count);
 int detect_clipping_B(const WaveformSample *samples, int count);
