@@ -2,7 +2,7 @@
 #ifndef PROGRAMMINGCOURSEWORK_WAVEFORM_H
 #define PROGRAMMINGCOURSEWORK_WAVEFORM_H
 
-//1 - define the stuct
+//defins the stuct to hold all data from one row of the cvs file
 
 typedef struct {
     double timestamp;
@@ -16,9 +16,9 @@ typedef struct {
 
 } WaveformSample;
 //RMS function calculation
-double calculate_rms_A(const WaveformSample *samples, int count);
-double calculate_rms_B(const WaveformSample *samples, int count);
-double calculate_rms_C(const WaveformSample *samples, int count);
+double calculate_rms_A(const WaveformSample *samples, int count); //calculates RMS voltage for phase A using the sample array and the number of rows loaded
+double calculate_rms_B(const WaveformSample *samples, int count); //calculates RMS voltage for phase B using the sample array and the number of rows loaded
+double calculate_rms_C(const WaveformSample *samples, int count); //calculates RMS voltage for phase C using the sample array and the number of rows loaded
 
 //peak to peak voltage function calculation for ABC
 double calculate_peak_to_peak_A(const WaveformSample * samples, int count);
@@ -42,7 +42,7 @@ double calculate_std_dev_B(const WaveformSample *samples, int count);
 double calculate_std_dev_C(const WaveformSample *samples, int count);
 
 //within tolerance for phases
-int is_within_tolerance(double rms);
+int is_within_tolerance(double rms); //takes the rms voltage as a decimal number and checks if it falls within the allowed 207-253V range
 
 //frequency calc
 double max_frequency(const WaveformSample *samples, int count);
@@ -62,4 +62,4 @@ double avg_current(const WaveformSample *samples, int count);
 double max_thd(const WaveformSample *samples, int count);
 double min_thd(const WaveformSample *samples, int count);
 
-#endif
+#endif //ending header gard

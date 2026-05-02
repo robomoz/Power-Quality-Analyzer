@@ -1,6 +1,11 @@
-# ninja log v7
-10	637	7990888331847402	CMakeFiles/ProgrammingCoursework.dir/main.c.obj	ff81a4dd635fcd76
-10	145	7990889573277264	CMakeFiles/ProgrammingCoursework.dir/waveform.c.obj	d3ac69dbe0c35d3c
-20	710	7990888331947489	CMakeFiles/ProgrammingCoursework.dir/io.c.obj	b69b9d5ee7e25430
-146	333	7990889574646334	ProgrammingCoursework.exe	e20b6491d7f00e40
-6	199	7990900457524709	ProgrammingCoursework.exe	a256592e7214910c
+# ninja log v6
+383	1130	7994289403449261	CMakeFiles/ProgrammingCoursework.dir/io.c.obj	8223260318a42b8f
+15	1133	7994289399764693	CMakeFiles/ProgrammingCoursework.dir/main.c.obj	b49efba0cdab896d
+21	360	7994309983637758	CMakeFiles/ProgrammingCoursework.dir/waveform.c.obj	19774c6ed3e727d2
+373	1518	7994309987158306	ProgrammingCoursework.exe	d0f128e01417ca41
+31	293	7994335165933953	CMakeFiles/ProgrammingCoursework.dir/io.c.obj	8223260318a42b8f
+297	732	7994335168589225	ProgrammingCoursework.exe	d0f128e01417ca41
+19	255	7994350225328710	CMakeFiles/ProgrammingCoursework.dir/main.c.obj	b49efba0cdab896d
+55	279	7994350225673211	CMakeFiles/ProgrammingCoursework.dir/io.c.obj	8223260318a42b8f
+40	281	7994350225528649	CMakeFiles/ProgrammingCoursework.dir/waveform.c.obj	19774c6ed3e727d2
+281	562	7994350227941600	ProgrammingCoursework.exe	d0f128e01417ca41
