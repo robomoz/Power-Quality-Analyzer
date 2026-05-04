@@ -11,5 +11,6 @@ and calculates RMS voltage, peak-to-peak values, DC offset, and clipping.
 ## GitHub Repository link 
 https://github.com/robomoz/Power-Quality-Analyzer.git
 
-
+## how to complie and run program 
+tap on the green play button on the main.c file in the top right and open the results.txt file
 
