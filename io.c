@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 int load_csv(const char *filename, WaveformSample **samples_out) { //passes filename and output to pointer functiom
-    FILE *file = fopen(filename, "r"); //opens the file in read mode - doesnt cahnge anything
+    FILE *file = fopen(filename, "r"); //opens the file in read mode - doesnt change anything
 
     if (!file) {  //if the file failed to open
         printf("Error: could not open file '%s'\n", filename); //print error message

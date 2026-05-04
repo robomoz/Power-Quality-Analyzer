@@ -5,7 +5,7 @@
 //defins the stuct to hold all data from one row of the cvs file
 
 typedef struct {
-    double timestamp;
+    double timestamp; //creating functions
     double phaseA;
     double phaseB;
     double phaseC;
